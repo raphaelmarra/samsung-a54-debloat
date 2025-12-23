@@ -6,11 +6,13 @@ Guia completo para otimizar seu Samsung Galaxy A54 removendo bloatware via ADB, 
 
 | Metrica | Antes | Depois | Ganho |
 |---------|-------|--------|-------|
-| Apps instalados | 520 | 474 | **-46 apps** |
-| Bloatware Samsung | ~80 | ~35 | **-45 apps** |
+| Apps instalados | 520 | 489 | **-31 apps** |
+| Bloatware Samsung | ~80 | ~50 | **-30 apps** |
 | Bloatware Microsoft | 3 | 0 | **-3 apps** |
 | Bloatware Facebook | 3 | 0 | **-3 apps** |
 | Bixby | 6+ | 0 | **Removido** |
+
+> **Nota:** Removemos apenas apps 100% seguros apos investigacao profunda. Alguns apps Samsung precisam permanecer para evitar crashes no One UI.
 
 ### Beneficios
 - Menos processos em background
@@ -152,8 +154,8 @@ adb shell pm uninstall -k --user 0 com.samsung.android.game.gametools
 
 # Outros
 adb shell pm uninstall -k --user 0 com.sec.android.usermanual
-adb shell pm uninstall -k --user 0 com.sec.android.gallery3d
 adb shell pm uninstall -k --user 0 com.sec.android.app.samsungapps
+# NAO REMOVER: com.sec.android.gallery3d (Galeria essencial!)
 ```
 
 ---
@@ -227,6 +229,7 @@ Estes apps sao criticos para o sistema:
 
 | Package | App | Motivo |
 |---------|-----|--------|
+| `com.samsung.android.mcfds` | **Continuity Service** | **CAUSA CRASH NO ONE UI HOME!** |
 | `com.samsung.android.provider.filterprovider` | Filter Provider | Crash na camera |
 | `com.samsung.android.app.smartcapture` | Smart Capture | Crash na camera |
 | `com.sec.android.app.launcher` | Launcher | Tela inicial |
@@ -238,6 +241,9 @@ Estes apps sao criticos para o sistema:
 | `com.samsung.android.mobileservice` | Samsung Account | Muitas dependencias |
 | `com.samsung.android.themecenter` | Theme Center | Protegido pelo sistema |
 | `com.samsung.android.app.cocktailbarservice` | **Edge Panel** | Barra lateral util! |
+| `com.sec.android.gallery3d` | **Galeria Samsung** | Visualizar fotos/videos |
+
+> **IMPORTANTE - Descoberta Real:** O pacote `com.samsung.android.mcfds` (Samsung Continuity Service) CAUSA CRASH no One UI Home se removido! Descobrimos isso durante testes reais. Fontes: [XDA Forums](https://xdaforums.com/t/updated-and-one-ui-home-keeps-crashing.4693507/), [GitHub debloat-samsung](https://github.com/khlam/debloat-samsung-android)
 
 > **Aviso:** O Edge Panel (`cocktailbarservice`) pode parecer bloatware, mas e a barra lateral que muitos usuarios usam para atalhos. Se remover por engano, reinstale via [Galaxy Store](https://galaxystore.samsung.com/detail/com.samsung.android.app.cocktailbarservice) ou [APKMirror](https://www.apkmirror.com/apk/samsung-electronics-co-ltd/edge-screen/).
 
