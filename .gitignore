@@ -1,0 +1,10 @@
+# Backups de APK (muito grandes para git)
+backup/
+
+# Logs locais
+logs/*.txt
+logs/*.log
+
+# Arquivos temporarios
+*.tmp
+*.temp

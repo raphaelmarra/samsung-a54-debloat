@@ -1,0 +1,189 @@
+# LISTA COMPLETA DE APPS - SAMSUNG A54 (SM-A546E)
+# Data: 2025-12-22
+# Total: 509 packages (apos Nivel 1)
+
+================================================================================
+## NIVEL 2 - SAMSUNG EXTRAS (Seguros para remover)
+================================================================================
+
+### Samsung Apps Inuteis
+com.samsung.android.app.tips              # Samsung Tips - dicas inuteis
+com.samsung.android.game.gamehome         # Game Launcher - se nao joga
+com.samsung.android.game.gametools        # Game Tools - se nao joga
+com.samsung.android.game.gos              # Game Optimizing Service
+com.samsung.android.voc                   # Samsung Members - suporte (NAO ENCONTRADO)
+com.samsung.android.app.spage             # Samsung Free - noticias (NAO ENCONTRADO)
+com.samsung.android.forest                # Samsung Kids Mode
+com.samsung.android.app.dressroom         # Wallpaper/Decoracao
+com.samsung.android.dynamiclock           # Dynamic Lock Screen
+com.samsung.android.themecenter           # Theme Center
+com.samsung.android.themestore            # Theme Store
+com.samsung.android.stickercenter         # Sticker Center
+com.samsung.android.app.reminder          # Samsung Reminder
+com.samsung.android.calendar              # Samsung Calendar (se usa Google Calendar)
+com.samsung.android.video                 # Samsung Video Player
+com.samsung.android.app.soundpicker       # Sound Picker
+com.samsung.android.secsoundpicker        # Secure Sound Picker
+com.samsung.android.wallpaper.live        # Live Wallpapers
+com.samsung.android.widget.pictureframe   # Picture Frame Widget
+
+### Samsung Conectividade (se nao usa)
+com.samsung.android.oneconnect            # SmartThings (NAO ENCONTRADO)
+com.samsung.android.tvplus                # Samsung TV Plus (NAO ENCONTRADO)
+com.samsung.android.smartmirroring        # Smart Mirroring/DeX
+com.samsung.android.mdx                   # Samsung DeX
+com.samsung.android.mdx.kit               # DeX Kit
+com.samsung.android.inputshare            # Input Share
+com.samsung.android.hdmapp                # HDMI App
+com.samsung.android.audiomirroring        # Audio Mirroring
+com.samsung.android.allshare.service.mediashare  # Media Share
+
+### Samsung Wearables (se nao usa relogio/fones)
+com.samsung.android.app.watchmanagerstub  # Galaxy Watch Stub
+com.samsung.accessory.budsunitemgr        # Galaxy Buds Manager
+com.samsung.android.mateagent             # MateAgent (NAO ENCONTRADO)
+
+### Galaxy Store e Servicos
+com.sec.android.app.samsungapps           # Galaxy Store
+com.samsung.android.app.updatecenter      # Update Center
+com.samsung.android.mapsagent             # Maps Agent
+
+### Samsung Pagamentos (se nao usa)
+com.samsung.android.spayfw                # Samsung Pay Framework
+com.samsung.android.coldwalletservice     # Cold Wallet (cripto)
+
+================================================================================
+## NIVEL 2 - GOOGLE EXTRAS (Se nao usa)
+================================================================================
+
+com.google.android.apps.tachyon           # Google Meet/Duo
+com.google.android.apps.docs              # Google Drive
+com.google.android.apps.docs.editors.docs # Google Docs
+com.google.android.apps.docs.editors.sheets # Google Sheets
+com.google.android.keep                   # Google Keep
+com.google.android.calendar               # Google Calendar (se usa Samsung)
+com.google.android.apps.nbu.files         # Files by Google
+com.google.android.apps.youtube.creator   # YouTube Studio
+com.google.android.play.games             # Google Play Games
+com.google.android.apps.bard              # Google Gemini/Bard
+com.google.android.apps.googleassistant   # Google Assistant
+com.google.android.googlequicksearchbox   # Google App/Search
+com.google.android.gm                     # Gmail (se usa outro email)
+com.google.android.apps.maps              # Google Maps (CUIDADO - muito util)
+com.google.android.apps.photos            # Google Photos (CUIDADO - backup fotos)
+com.google.android.youtube                # YouTube (CUIDADO - muito usado)
+
+================================================================================
+## NIVEL 3 - SAMSUNG ACCOUNT RELATED (RISCO MAIOR)
+================================================================================
+
+com.samsung.android.mobileservice         # Samsung Account - ALTO RISCO
+com.samsung.android.samsungpass           # Samsung Pass
+com.samsung.android.samsungpassautofill   # Samsung Pass Autofill
+com.samsung.android.scloud                # Samsung Cloud
+com.samsung.android.fmm                   # Find My Mobile
+com.samsung.knox.securefolder             # Secure Folder
+com.samsung.android.kgclient              # Knox Guard
+
+================================================================================
+## APPS DE TERCEIROS (Instalados por voce - provavelmente quer manter)
+================================================================================
+
+### Bancos/Financeiro
+com.nu.production                # Nubank
+com.itau                         # Itau
+br.com.santander.way             # Santander
+br.com.Inter.CDPro               # Inter
+com.btg.pactual.banking          # BTG Banking
+com.btg.pactual.digital.mobile   # BTG Digital
+com.btg.pactual.eqi.mobile       # BTG EQI
+br.com.intermedium               # Inter
+br.com.xp.carteira               # XP
+
+### Cripto
+com.binance.dev                  # Binance
+com.coinbase.android             # Coinbase
+com.kubi.kucoin                  # KuCoin
+com.gateio.gateio                # Gate.io
+com.coinex.trade.play            # CoinEx
+com.coinmarketcap.android        # CoinMarketCap
+app.phantom                      # Phantom Wallet
+org.toshi                        # Coinbase Wallet
+com.yubico.yubioath              # Yubico Authenticator
+
+### Comunicacao
+com.whatsapp                     # WhatsApp
+org.telegram.messenger           # Telegram
+com.twitter.android              # Twitter/X
+com.instagram.android            # Instagram
+
+### Streaming/Entretenimento
+com.spotify.music                # Spotify
+com.netflix.mediaclient          # Netflix
+com.zhiliaoapp.musically         # TikTok
+com.google.android.youtube       # YouTube
+
+### Transporte/Delivery
+br.com.brainweb.ifood            # iFood
+com.taxis99                      # 99
+com.ubercab.uberlite             # Uber Lite
+com.localiza.mobile              # Localiza
+burgerking.com.br.appandroid     # Burger King
+
+### Governo/Documentos
+br.gov.meugovbr                  # Gov.br
+br.gov.serpro.cnhe               # CNH Digital
+br.gov.datasus.cnsdigital        # CNS Digital
+br.gov.sp.prodesp.pptdigital     # Poupatempo Digital
+br.gov.ibge                      # IBGE
+
+### Outros
+com.anthropic.claude             # Claude AI
+com.shazam.android               # Shazam
+hands.android.webmotors          # Webmotors
+br.com.gringo                    # Gringo (multas)
+com.life360.android.safetymapd   # Life360
+br.com.vivo                      # Vivo
+com.mercadolibre                 # Mercado Livre
+com.mercadopago.wallet           # Mercado Pago
+br.com.meliuz                    # Meliuz
+com.lemon.lvoverseas             # CapCut
+com.SabriApps.SConverter         # Conversor
+com.raizen.acelera               # Shell Box
+br.com.memed.patient.app         # Memed
+br.com.segurosunimed.reembolsodigital  # Unimed
+br.com.trinitysolucoes.saemobile # SAE Mobile
+br.com.ctncardoso.ctncar         # CTN Car
+com.mastercard.hanzo.surpreenda  # Surpreenda
+br.usp.jornal_da_usp             # Jornal USP
+com.coinglass.android            # Coinglass
+com.TDF.ShellRacingLegends       # Jogo Shell Racing
+com.my.hc.rpg.kingdom.simulator  # Jogo Kingdom
+
+================================================================================
+## SISTEMA - NAO REMOVER (Critico)
+================================================================================
+
+com.sec.android.app.camera                # Camera
+com.sec.android.app.launcher              # Launcher
+com.samsung.android.dialer                # Telefone
+com.samsung.android.messaging             # SMS
+com.samsung.android.incallui              # Tela de chamada
+com.samsung.android.honeyboard            # Teclado
+com.samsung.android.provider.filterprovider  # Filtro Camera
+com.samsung.android.app.smartcapture      # Smart Capture
+com.sec.android.gallery3d                 # Galeria
+com.sec.android.app.myfiles               # Meus Arquivos
+com.samsung.android.app.contacts          # Contatos
+com.android.systemui                      # System UI
+
+================================================================================
+## APPS JA DESABILITADOS (pelo usuario anteriormente)
+================================================================================
+
+# Vi na lista de disabled-packages que voce ja desabilitou muitos apps:
+# - Varios apps de banco
+# - Apps Samsung Knox
+# - Alguns jogos
+# - Opera Max
+# etc.

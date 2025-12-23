@@ -1,0 +1,22 @@
+# NIVEL 1 - CONSERVADOR
+# Apps 100% seguros para remover
+# Total: 11 apps
+
+# Microsoft (3)
+com.linkedin.android
+com.microsoft.skydrive
+com.microsoft.appmanager
+
+# Facebook (3)
+com.facebook.appmanager
+com.facebook.system
+com.facebook.services
+
+# Bixby (3)
+com.samsung.android.bixby.agent
+com.samsung.android.bixby.wakeup
+com.samsung.android.bixbyvision.framework
+
+# AR (2)
+com.google.ar.core
+com.samsung.android.aremoji
