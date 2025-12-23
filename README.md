@@ -237,6 +237,9 @@ Estes apps sao criticos para o sistema:
 | `com.samsung.android.honeyboard` | Teclado | Digitacao |
 | `com.samsung.android.mobileservice` | Samsung Account | Muitas dependencias |
 | `com.samsung.android.themecenter` | Theme Center | Protegido pelo sistema |
+| `com.samsung.android.app.cocktailbarservice` | **Edge Panel** | Barra lateral util! |
+
+> **Aviso:** O Edge Panel (`cocktailbarservice`) pode parecer bloatware, mas e a barra lateral que muitos usuarios usam para atalhos. Se remover por engano, reinstale via [Galaxy Store](https://galaxystore.samsung.com/detail/com.samsung.android.app.cocktailbarservice) ou [APKMirror](https://www.apkmirror.com/apk/samsung-electronics-co-ltd/edge-screen/).
 
 ---
 
